@@ -1,0 +1,88 @@
+{
+    "common": [
+        {
+            "_id": "power",
+            "type": "state",
+            "common": {
+                "role": "button.power",
+                "name": "Controlling power",
+                "type": "boolean",
+                "read": false,
+                "write": true,
+                "def": false
+            },
+            "native": {
+            }
+        }
+    ],
+    "projectors": {
+        "Vivitek DU7098Z": {
+            "states": [
+                "status",
+                "inputs",
+                "blank"
+            ]
+        }
+    },
+    "states": {
+        "status" : {
+            "_id": "status",
+            "type": "state",
+            "common": {
+                "role": "value",
+                "name": "Projector status",
+                "type": "number",
+                "states": {
+                    "0": "Reset",
+                    "1": "Standby",
+                    "2": "Active",
+                    "3": "Cooling",
+                    "4": "Warming",
+                    "5": "Power Up"
+                },
+                "read": true,
+                "write": true,
+                "def": 1
+            },
+            "native": {
+            }
+        },
+        "inputs" : {
+            "_id": "input",
+            "type": "state",
+            "common": {
+                "role": "value",
+                "name": "Inputs Select",
+                "type": "number",
+                "states": {
+                    "1": "RGB",
+                    "3": "DVI",
+                    "4": "Video",
+                    "6": "HDMI 1",
+                    "7": "BNC",
+                    "9": "HDMI 2",
+                    "15": "HDBaseT"
+                },
+                "read": true,
+                "write": true,
+                "def": 1
+            },
+            "native": {
+            }
+        },
+        "blank" : {
+            "_id": "blank",
+            "type": "state",
+            "common": {
+                "role": "value",
+                "name": "mute projection",
+                "type": "boolean",
+                "read": true,
+                "write": true,
+                "def": false
+            },
+            "native": {
+            }
+        }
+    }
+}

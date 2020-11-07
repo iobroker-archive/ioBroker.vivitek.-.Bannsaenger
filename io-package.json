@@ -1,0 +1,103 @@
+{
+    "common": {
+        "name": "vivitek",
+        "version": "0.0.1",
+        "news": {
+            "0.0.1": {
+                "en": "initial release",
+                "de": "Erstveröffentlichung",
+                "ru": "Начальная версия",
+                "pt": "lançamento inicial",
+                "nl": "Eerste uitgave",
+                "fr": "Première version",
+                "it": "Versione iniziale",
+                "es": "Versión inicial",
+                "pl": "Pierwsze wydanie",
+                "zh-cn": "首次出版"
+            }
+        },
+        "title": "Vivitek Projector Control",
+        "titleLang": {
+            "en": "Vivitek Projector Control",
+            "de": "Vivitek Projektorsteuerung",
+            "ru": "Управление проектором Vivitek",
+            "pt": "Vivitek Projector Control",
+            "nl": "Vivitek Projector Control",
+            "fr": "Contrôle du projecteur Vivitek",
+            "it": "Vivitek Projector Control",
+            "es": "Control del proyector Vivitek",
+            "pl": "Sterowanie projektorem Vivitek",
+            "zh-cn": "Vivitek投影仪控制"
+        },
+        "desc": {
+            "en": "Control a Vivitek Projector via Network (RS 232 commands via telnet)",
+            "de": "Steuern Sie einen Vivitek-Projektor über das Netzwerk (RS 232-Befehle über Telnet)",
+            "ru": "Управление проектором Vivitek по сети (команды RS 232 через telnet)",
+            "pt": "Controlar um projetor Vivitek via rede (comandos RS 232 via telnet)",
+            "nl": "Bedien een Vivitek-projector via netwerk (RS 232-opdrachten via telnet)",
+            "fr": "Contrôlez un projecteur Vivitek via le réseau (commandes RS 232 via telnet)",
+            "it": "Controlla un proiettore Vivitek tramite rete (comandi RS 232 tramite telnet)",
+            "es": "Controle un proyector Vivitek a través de la red (comandos RS 232 a través de telnet)",
+            "pl": "Sterowanie projektorem Vivitek przez sieć (polecenia RS 232 przez telnet)",
+            "zh-cn": "通过网络控制Vivitek投影仪（通过telnet的RS 232命令）"
+        },
+        "authors": [
+            "Bannsaenger <bannsaenger@gmx.de>"
+        ],
+        "keywords": [
+            "vivitek projector"
+        ],
+        "license": "MIT",
+        "platform": "Javascript/Node.js",
+        "main": "main.js",
+        "icon": "vivitek.png",
+        "enabled": true,
+        "extIcon": "https://raw.githubusercontent.com/Bannsaenger/ioBroker.vivitek/master/admin/vivitek.png",
+        "readme": "https://github.com/Bannsaenger/ioBroker.vivitek/blob/master/README.md",
+        "loglevel": "info",
+        "mode": "daemon",
+        "type": "multimedia",
+        "message": true,
+        "compact": true,
+        "materialize": true,
+        "dependencies": [
+            {
+                "js-controller": ">=1.4.2"
+            }
+        ]
+    },
+    "native": {
+        "host": "127.0.0.1",
+        "port": 23,
+        "projectorType": "Vivitek DU7098Z",
+        "pollDelay": 1000,
+        "reconnectDelay": 10000,
+        "answerTimeout": 500,
+        "inactivityTimeout": 10000
+    },
+    "objects": [],
+    "instanceObjects": [
+        {
+            "_id": "info",
+            "type": "channel",
+            "common": {
+                "name": "Information"
+            },
+            "native": {}
+        },
+        {
+            "_id": "info.connection",
+            "type": "state",
+            "common": {
+                "role": "indicator.connected",
+                "name": "If connected to Vivitec projector",
+                "type": "boolean",
+                "read": true,
+                "write": false,
+                "def": false
+            },
+            "native": {
+            }
+        }
+    ]
+}
