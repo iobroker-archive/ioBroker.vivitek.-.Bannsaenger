@@ -109,7 +109,7 @@ class Vivitek extends utils.Adapter {
         */
         let tempState = await self.getStateAsync('input');
         // @ts-ignore
-        this.projector.input = tempState.val.toString() || '6';
+        if (tempState) this.projector.input = tempState.val.toString() || '6';
         tempState = await self.getStateAsync('blank');
         this.projector.blank = false;
         // @ts-ignore
