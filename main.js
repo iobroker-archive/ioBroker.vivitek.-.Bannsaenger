@@ -113,7 +113,7 @@ class Vivitek extends utils.Adapter {
         tempState = await self.getStateAsync('blank');
         this.projector.blank = false;
         // @ts-ignore
-        if (tempState.val) this.projector.blank = true;
+        if (tempState && tempState.val) this.projector.blank = true;
 
         // Client callbacks
         this.client.on('error', this.onClientError.bind(this));
