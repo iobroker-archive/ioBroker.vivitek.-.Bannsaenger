@@ -14,12 +14,24 @@
 
 Control a Vivitek Projector via Network (RS 232 commands via telnet)
 
+The Adapter is designed for communication with a vivitek projector via its telnet interface.
+This should behave like the serial port.
+Unfortunately the telnet implementation lacks some basic commands.
+For now its only possible the communicate via a network to RS232 comserver.
+I run it with a Wieseman & Theis Comserver.
 
+## ToDo
+As when the implementation on the projector side gets fully working
+there should be added more commands to fully control the projector.
+As i know for now, the protocol covers a whole family of projectos.
 
 ## Changelog
 
 ### 0.0.1
 * (Bannsaenger) initial release
+
+### 0.0.2
+* (Bannsaenger) prepared for checkin to iobroker.latest
 
 ## License
 MIT License
