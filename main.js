@@ -462,7 +462,9 @@ class Vivitek extends utils.Adapter {
             // clearInterval(interval1);
 
             // close client to set the info connection and stop all timers
-            this.client.end(callback);
+            this.client.destroy();
+            // call the callback in case of not called before
+            callback();
         } catch (e) {
             callback();
         }
