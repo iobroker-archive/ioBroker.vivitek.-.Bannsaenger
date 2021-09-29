@@ -12,6 +12,9 @@
     "type": "git",
     "url": "https://github.com/Bannsaenger/ioBroker.vivitek.git"
   },
+  "engines": {
+    "node": ">=12.x"
+  },
   "dependencies": {
     "@iobroker/adapter-core": "^2.5.1"
   },
