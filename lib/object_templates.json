@@ -17,6 +17,7 @@
     ],
     "projectors": {
         "Vivitek DU7098Z": {
+            "description": "Vivitek DU7098Z",
             "states": [
                 "status",
                 "inputs",

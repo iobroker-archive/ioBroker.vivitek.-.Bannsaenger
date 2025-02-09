@@ -1,0 +1,18 @@
+{
+    "options": "options",
+    "lblSelectDevice": "select device/projector",
+    "hlpSelectDevice": "Only if device type is chosen a communication can be established",
+    "errSelectDevice": "no device type chosen",
+    "lblHost": "Host",
+    "hlpHost": "IP-Address or FQDN from the device",
+    "lblPort": "TCP-Port",
+    "hlpPort": "TCP-Port (default: 23)",
+    "lblPollDelay": "Poll Delay",
+    "hlpPollDelay": "time between cyclic status querys (in ms)",
+    "lblReconnectDelay": "Reconnect Delay",
+    "hlpReconnectDelay": "time to wait after a connection failure for reconnect (in ms)",
+    "lblAnswerTimeout": "Answer timeout",
+    "hlpAnswerTimeout": "maximum time to wait for a answer (in ms)",
+    "lblIinactivityTimeout": "Inactivity Timeout",
+    "hlpIinactivityTimeout": "maximum time to wait for a correct answer. Otherwise the connection will be cut and reconnected (in ms)"
+}

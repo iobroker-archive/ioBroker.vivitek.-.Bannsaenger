@@ -1,0 +1,18 @@
+{
+    "options": "opción",
+    "lblSelectDevice": "Seleccionar dispositivo/proyector",
+    "hlpSelectDevice": "Solo si se elige el tipo de dispositivo, se puede establecer una comunicación",
+    "lblHost": "Anfitrión",
+    "hlpHost": "Dirección IP o FQDN desde el dispositivo",
+    "lblPort": "TCP-Port",
+    "hlpPort": "TCP-Port (predeterminado: 23)",
+    "errSelectDevice": "No hay tipo de dispositivo elegido",
+    "lblPollDelay": "Retraso de la encuesta",
+    "hlpPollDelay": "tiempo entre las consultas de estado cíclico (en MS)",
+    "lblReconnectDelay": "Retraso de reconectación",
+    "hlpReconnectDelay": "tiempo para esperar después de una falla de conexión para reconectar (en MS)",
+    "lblAnswerTimeout": "Tiempo de espera de respuesta",
+    "hlpAnswerTimeout": "tiempo máximo para esperar una respuesta (en MS)",
+    "lblIinactivityTimeout": "Tiempo de espera de inactividad",
+    "hlpIinactivityTimeout": "tiempo máximo para esperar una respuesta correcta. De lo contrario, la conexión se cortará y se volverá a conectar (en MS)"
+}

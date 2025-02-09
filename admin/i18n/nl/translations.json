@@ -1,0 +1,18 @@
+{
+    "options": "opties",
+    "lblSelectDevice": "Selecteer Device/Projector",
+    "hlpSelectDevice": "Alleen als het apparaattype wordt gekozen, kan een communicatie worden vastgesteld",
+    "lblHost": "Gastheer",
+    "hlpHost": "Ip-adres of fqdn van het apparaat",
+    "lblPort": "TCP-poort",
+    "hlpPort": "TCP-Port (standaard: 23)",
+    "errSelectDevice": "Geen apparaattype gekozen",
+    "lblPollDelay": "Poll -vertraging",
+    "hlpPollDelay": "Tijd tussen cyclische statusquerys (in MS)",
+    "lblReconnectDelay": "Verbind de vertraging opnieuw",
+    "hlpReconnectDelay": "Tijd om te wachten na een verbindingsfout om opnieuw verbinding te maken (in MS)",
+    "lblAnswerTimeout": "Antwoord time -out",
+    "hlpAnswerTimeout": "Maximale tijd om te wachten op een antwoord (in MS)",
+    "lblIinactivityTimeout": "Time -out inactiviteit",
+    "hlpIinactivityTimeout": "Maximale tijd om te wachten op een correct antwoord. Anders wordt de verbinding gesneden en opnieuw verbonden (in MS)"
+}

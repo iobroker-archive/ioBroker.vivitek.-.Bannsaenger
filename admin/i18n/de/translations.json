@@ -1,0 +1,18 @@
+{
+    "options": "Optionen",
+    "lblSelectDevice": "Wählen Sie Geräte/Projektor",
+    "hlpSelectDevice": "Nur wenn der Gerätetyp ausgewählt wird, kann die Kommunikation gestartet werden",
+    "errSelectDevice": "kein Gerätetyp gewählt",
+    "lblHost": "Host",
+    "hlpHost": "IP-Addesse oder FQDN vom Gerät",
+    "lblPort": "TCP-Port",
+    "hlpPort": "TCP-Port (Standard: 23)",
+    "lblPollDelay": "Wahlverzögerung",
+    "hlpPollDelay": "Zeit zwischen zyklischen Statusanfragen (in ms)",
+    "lblReconnectDelay": "Verbinden Sie die Verzögerung wieder",
+    "hlpReconnectDelay": "Zeit zum Warten nach einem Verbindungsfehler zur Wiederverbindung (in ms)",
+    "lblAnswerTimeout": "Antworte Timeout",
+    "hlpAnswerTimeout": "Maximale Zeit, um auf eine Antwort zu warten (in ms)",
+    "lblIinactivityTimeout": "Inaktivitätszeitüberschreitung",
+    "hlpIinactivityTimeout": "Maximale Zeit, um auf eine korrekte Antwort zu warten. Andernfalls wird die Verbindung geschnitten und wieder verbunden (in ms)"
+}

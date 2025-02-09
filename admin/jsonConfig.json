@@ -1,0 +1,100 @@
+{
+    "i18n": true,
+    "type": "tabs",
+    "items": {
+        "_options": {
+            "type": "panel",
+            "label": "options",
+            "items": {
+                "projectorType": {
+                    "type": "selectSendTo",
+                    "command": "getDeviceTypes",
+                    "default": "",                    
+                    "validator": "data.projectorType !== ''",
+                    "validatorErrorText": "errSelectDevice",
+                    "validatorNoSaveOnError": true,
+                    "manual": false,
+                    "noTranslation": false,
+                    "xs": 12,
+                    "sm": 12,
+                    "md": 12,
+                    "lg": 12,
+                    "xl": 12,
+                    "label": "lblSelectDevice",
+                    "help": "hlpSelectDevice"
+                },
+                "host": {
+                    "type": "text",
+                    "maxLength": 255,
+                    "xs": 12,
+                    "sm": 12,
+                    "md": 6,
+                    "lg": 6,
+                    "xl": 6,
+                    "label": "lblHost",
+                    "help": "hlpHost"
+                },
+                "port": {
+                    "type": "number",
+                    "min": 1,
+                    "max": 65565,
+                    "xs": 12,
+                    "sm": 12,
+                    "md": 6,
+                    "lg": 6,
+                    "xl": 6,
+                    "label": "lblPort",
+                    "help": "hlpPort"
+                },
+                "pollDelay": {
+                    "type": "number",
+                    "min": 1000,
+                    "max": 100000,
+                    "xs": 12,
+                    "sm": 12,
+                    "md": 6,
+                    "lg": 6,
+                    "xl": 6,
+                    "label": "lblPollDelay",
+                    "help": "hlpPollDelay"
+                },
+                "reconnectDelay": {
+                    "type": "number",
+                    "min": 3000,
+                    "max": 300000,
+                    "xs": 12,
+                    "sm": 12,
+                    "md": 6,
+                    "lg": 6,
+                    "xl": 6,
+                    "label": "lblReconnectDelay",
+                    "help": "hlpReconnectDelay"
+                },
+                "answerTimeout": {
+                    "type": "number",
+                    "min": 100,
+                    "max": 500,
+                    "xs": 12,
+                    "sm": 12,
+                    "md": 6,
+                    "lg": 6,
+                    "xl": 6,
+                    "label": "lblAnswerTimeout",
+                    "help": "hlpAnswerTimeout"
+                },
+                "inactivityTimeout": {
+                    "type": "number",
+                    "min": 10000,
+                    "max": 100000,
+                    "xs": 12,
+                    "sm": 12,
+                    "md": 6,
+                    "lg": 6,
+                    "xl": 6,
+                    "label": "lblIinactivityTimeout",
+                    "help": "hlpIinactivityTimeout"
+                }
+           }
+        }
+    }
+}

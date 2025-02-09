@@ -1,0 +1,18 @@
+{
+    "options": "选项",
+    "lblSelectDevice": "选择设备/投影仪",
+    "hlpSelectDevice": "只有选择设备类型可以建立通信",
+    "lblHost": "主持人",
+    "hlpHost": "设备的IP地址或FQDN",
+    "lblPort": "TCP港",
+    "hlpPort": "TCP-PORT（默认值：23）",
+    "errSelectDevice": "没有设备类型选择",
+    "lblPollDelay": "民意调查延迟",
+    "hlpPollDelay": "环状状态查询之间的时间（在MS中）",
+    "lblReconnectDelay": "重新连接延迟",
+    "hlpReconnectDelay": "是时候等待重新连接的连接失败（在MS中）",
+    "lblAnswerTimeout": "回答超时",
+    "hlpAnswerTimeout": "等待答案的最大时间（在MS中）",
+    "lblIinactivityTimeout": "无活动超时",
+    "hlpIinactivityTimeout": "最大的时间等待正确的答案。否则将切割连接并重新连接（在MS中）"
+}

@@ -1,0 +1,18 @@
+{
+    "options": "options",
+    "lblSelectDevice": "Sélectionnez l'appareil / projecteur",
+    "hlpSelectDevice": "Seulement si le type de périphérique est choisi, une communication peut être établie",
+    "lblHost": "Hôte",
+    "hlpHost": "Address IP ou FQDN de l'appareil",
+    "lblPort": "TCP-Port",
+    "hlpPort": "TCP-Port (par défaut: 23)",
+    "errSelectDevice": "Aucun type d'appareil choisi",
+    "lblPollDelay": "Retard de sondage",
+    "hlpPollDelay": "Temps entre les requêtes de statut cyclique (en ms)",
+    "lblReconnectDelay": "Reconnecter le retard",
+    "hlpReconnectDelay": "Il est temps d'attendre après une défaillance de connexion à reconnecter (en ms)",
+    "lblAnswerTimeout": "Répondre à l'heure",
+    "hlpAnswerTimeout": "Temps maximum pour attendre une réponse (en ms)",
+    "lblIinactivityTimeout": "Timeout d'inactivité",
+    "hlpIinactivityTimeout": "Temps maximum pour attendre une réponse correcte. Sinon, la connexion sera coupée et reconnectée (en ms)"
+}

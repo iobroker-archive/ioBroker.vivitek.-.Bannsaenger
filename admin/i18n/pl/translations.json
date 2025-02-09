@@ -1,0 +1,18 @@
+{
+    "options": "opcje",
+    "lblSelectDevice": "Wybierz urządzenie/projektor",
+    "hlpSelectDevice": "Tylko jeśli wybrano typ urządzenia, można ustalić komunikację",
+    "lblHost": "Gospodarz",
+    "hlpHost": "Address IP lub FQDN z urządzenia",
+    "lblPort": "TCP-Port",
+    "hlpPort": "TCP-Port (domyślnie: 23)",
+    "errSelectDevice": "Brak typu urządzenia",
+    "lblPollDelay": "Opóźnienie ankiety",
+    "hlpPollDelay": "Czas między zapytania o status cykliczne (w MS)",
+    "lblReconnectDelay": "Ponowne połączenie opóźnienia",
+    "hlpReconnectDelay": "Czas poczekać po awarii połączenia do ponownego połączenia (w MS)",
+    "lblAnswerTimeout": "Odpowiedz na limit czasu",
+    "hlpAnswerTimeout": "maksymalny czas na czekanie na odpowiedź (w MS)",
+    "lblIinactivityTimeout": "Limit czasu bezczynności",
+    "hlpIinactivityTimeout": "Maksymalny czas na czekanie na poprawną odpowiedź. W przeciwnym razie połączenie zostanie wycięte i ponownie połączone (w MS)"
+}
