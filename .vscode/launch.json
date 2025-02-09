@@ -29,6 +29,15 @@
         },
         {
             "type": "node",
+            "request": "launch",
+            "name": "Launch ioBroker Adapter",
+            "skipFiles": ["<node_internals>/**"],
+            "args": ["--debug", "0"],
+            "program": "node_modules/iobroker.<adapter>/<path-to-main.js>",
+            "cwd": "${workspaceFolder}/.dev-server/default"
+        },
+        {
+            "type": "node",
             "request": "attach",
             "name": "An den Port anfügen",
             "address": "localhost",
