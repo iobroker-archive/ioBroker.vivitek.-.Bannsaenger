@@ -31,7 +31,7 @@ As i know for now, the protocol covers a whole family of projectos.
     Placeholder for the next version (at the beginning of the line):
     ### **WORK IN PROGRESS**
 -->
-### **WORK IN PROGRESS**
+### 0.1.0 (2025-02-09)
 * (Bannsaenger) updated dependencies and moved to release script
 * (Bannsaenger) instance config and object database handling prepared for >= admin5
 * (Bannsaenger) json Config
@@ -39,6 +39,12 @@ As i know for now, the protocol covers a whole family of projectos.
 
 ### 0.0.2
 * (Bannsaenger) prepared for checkin to iobroker.latest
+
+### 0.0.1
+* (Bannsaenger) initial release
+
+### 0.0.2
+* (Bannsaenger) added engine and prepared for review
 
 ### 0.0.1
 * (Bannsaenger) initial release

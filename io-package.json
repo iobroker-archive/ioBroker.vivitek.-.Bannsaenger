@@ -1,117 +1,130 @@
 {
-    "common": {
-        "name": "vivitek",
-        "version": "0.0.2",
-        "news": {
-            "0.0.2": {
-                "en": "minor changes for the publication of the first release",
-                "de": "geringfügige Änderungen für die Veröffentlichung der ersten Version",
-                "ru": "мелкие изменения для публикации первого релиза",
-                "pt": "pequenas alterações para a publicação do primeiro lançamento",
-                "nl": "kleine wijzigingen voor de publicatie van de eerste release",
-                "fr": "changements mineurs pour la publication de la première version",
-                "it": "modifiche minori per la pubblicazione della prima release",
-                "es": "cambios menores para la publicación del primer lanzamiento",
-                "pl": "drobne zmiany dotyczące publikacji pierwszego wydania",
-                "zh-cn": "对第一个发行版的微小更改",
-                "uk": "незначні зміни для публікації першого випуску"
-            }
-        },
-        "titleLang": {
-            "en": "Vivitek Projector Control",
-            "de": "Vivitek Projektorsteuerung",
-            "ru": "Управление проектором Vivitek",
-            "pt": "Vivitek Projector Control",
-            "nl": "Vivitek Projector Control",
-            "fr": "Contrôle du projecteur Vivitek",
-            "it": "Vivitek Projector Control",
-            "es": "Control del proyector Vivitek",
-            "pl": "Sterowanie projektorem Vivitek",
-            "zh-cn": "Vivitek投影仪控制",
-            "uk": "Керування проектором Vivitek"
-        },
-        "desc": {
-            "en": "Control a Vivitek Projector via Network (RS 232 commands via telnet)",
-            "de": "Steuern Sie einen Vivitek-Projektor über das Netzwerk (RS 232-Befehle über Telnet)",
-            "ru": "Управление проектором Vivitek по сети (команды RS 232 через telnet)",
-            "pt": "Controlar um projetor Vivitek via rede (comandos RS 232 via telnet)",
-            "nl": "Bedien een Vivitek-projector via netwerk (RS 232-opdrachten via telnet)",
-            "fr": "Contrôlez un projecteur Vivitek via le réseau (commandes RS 232 via telnet)",
-            "it": "Controlla un proiettore Vivitek tramite rete (comandi RS 232 tramite telnet)",
-            "es": "Controle un proyector Vivitek a través de la red (comandos RS 232 a través de telnet)",
-            "pl": "Sterowanie projektorem Vivitek przez sieć (polecenia RS 232 przez telnet)",
-            "zh-cn": "通过网络控制Vivitek投影仪（通过telnet的RS 232命令）",
-            "uk": "Керування проектором Vivitek через мережу (команди RS 232 через telnet)"
-        },
-        "authors": [
-            "Bannsaenger <bannsaenger@gmx.de>"
-        ],
-        "keywords": [
-            "vivitek projector"
-        ],
-        "licenseInformation": {
-            "link": "https://github.com/Bannsaenger/ioBroker.vivitek/blob/master/LICENSE",
-            "type": "free",
-            "license": "MIT"
-        },
-        "platform": "Javascript/Node.js",
-        "icon": "vivitek.png",
-        "enabled": true,
-        "extIcon": "https://raw.githubusercontent.com/Bannsaenger/ioBroker.vivitek/master/admin/vivitek.png",
-        "readme": "https://github.com/Bannsaenger/ioBroker.vivitek/blob/master/README.md",
-        "loglevel": "info",
-        "mode": "daemon",
-        "type": "multimedia",
-        "tier": 3,
-        "compact": true,
-        "connectionType": "local",
-        "dataSource": "poll",
-        "adminUI": {
-            "config": "json"
-        },
-        "messagebox": true,
-        "dependencies": [
-            {
-                "js-controller": ">=5.0.19"
-            }
-        ],
-        "globalDependecies": [
-            {
-                "admin": ">=5.3.2"
-            }
-        ]
+  "common": {
+    "name": "vivitek",
+    "version": "0.1.0",
+    "news": {
+      "0.1.0": {
+        "en": "updated dependencies and moved to release script\ninstance config and object database handling prepared for >= admin5\njson Config\nadd errorHandler",
+        "de": "aktualisierte abhängigkeiten und verschoben, um skript zu veröffentlichen\nbeispiel config und objektdatenbankhandling für >= admin\nich will nicht\nfehler hinzufügenHandler",
+        "ru": "обновление зависимостей и переход на выпуск скрипта\n instance admin5\njson Config\nдобавить ошибка",
+        "pt": "dependências atualizadas e movido para liberar script\ninstância config e manipulação de banco de dados objeto preparado para >= admin5\nconfigação de json\nadicionar erroHandler",
+        "nl": "bijgewerkte afhankelijkheden en verplaatst naar release script\ninstance config en object database handling voorbereid voor >= admin5\njson-configuratie\nvoeg fouthandler toe",
+        "fr": "mise à jour des dépendances et déplacé vers la version script\nconfiguration d'instance et gestion de la base de données objet préparée pour >= administrateur5\njson Config\najouter erreurHandler",
+        "it": "dipendenze aggiornate e spostate allo script di rilascio\nistanza configurazione e gestione del database degli oggetti preparati per >= admin\njson Config\naggiungere erroreHandler",
+        "es": "dependencias actualizadas y movido a publicar script\nconfiguración de instancia y el manejo de bases de datos de objetos preparado para admin5\njson Config\nagregar errorHandler",
+        "pl": "zaktualizowane zależności i przeniesione do wydania skryptu\ninstance config i obsługa bazy danych obiektów przygotowanej dla > = admin5\nkonfiguracja jsona\ndodaj errorHandler",
+        "uk": "оновлені залежності і переїхали до запуску скрипту\njavascript licenses api веб-сайт адмін5\njson Конфіг\nдодати помилку",
+        "zh-cn": "更新依赖关系并移动到发布脚本\n为 qq 编写实例配置和对象数据库处理 管理员5\njson 配置\n添加错误"
+      },
+      "0.0.2": {
+        "en": "minor changes for the publication of the first release",
+        "de": "geringfügige Änderungen für die Veröffentlichung der ersten Version",
+        "ru": "мелкие изменения для публикации первого релиза",
+        "pt": "pequenas alterações para a publicação do primeiro lançamento",
+        "nl": "kleine wijzigingen voor de publicatie van de eerste release",
+        "fr": "changements mineurs pour la publication de la première version",
+        "it": "modifiche minori per la pubblicazione della prima release",
+        "es": "cambios menores para la publicación del primer lanzamiento",
+        "pl": "drobne zmiany dotyczące publikacji pierwszego wydania",
+        "zh-cn": "对第一个发行版的微小更改",
+        "uk": "незначні зміни для публікації першого випуску"
+      }
     },
-    "native": {
-        "host": "127.0.0.1",
-        "port": 23,
-        "projectorType": "",
-        "pollDelay": 1000,
-        "reconnectDelay": 10000,
-        "answerTimeout": 500,
-        "inactivityTimeout": 10000
+    "titleLang": {
+      "en": "Vivitek Projector Control",
+      "de": "Vivitek Projektorsteuerung",
+      "ru": "Управление проектором Vivitek",
+      "pt": "Vivitek Projector Control",
+      "nl": "Vivitek Projector Control",
+      "fr": "Contrôle du projecteur Vivitek",
+      "it": "Vivitek Projector Control",
+      "es": "Control del proyector Vivitek",
+      "pl": "Sterowanie projektorem Vivitek",
+      "zh-cn": "Vivitek投影仪控制",
+      "uk": "Керування проектором Vivitek"
     },
-    "objects": [],
-    "instanceObjects": [
-        {
-            "_id": "info",
-            "type": "channel",
-            "common": {
-                "name": "Information"
-            },
-            "native": {}
-        },
-        {
-            "_id": "info.connection",
-            "type": "state",
-            "common": {
-                "role": "indicator.connected",
-                "name": "If connected to Vivitec projector",
-                "type": "boolean",
-                "read": true,
-                "write": false,
-                "def": false
-            },
-            "native": {}
-        }
+    "desc": {
+      "en": "Control a Vivitek Projector via Network (RS 232 commands via telnet)",
+      "de": "Steuern Sie einen Vivitek-Projektor über das Netzwerk (RS 232-Befehle über Telnet)",
+      "ru": "Управление проектором Vivitek по сети (команды RS 232 через telnet)",
+      "pt": "Controlar um projetor Vivitek via rede (comandos RS 232 via telnet)",
+      "nl": "Bedien een Vivitek-projector via netwerk (RS 232-opdrachten via telnet)",
+      "fr": "Contrôlez un projecteur Vivitek via le réseau (commandes RS 232 via telnet)",
+      "it": "Controlla un proiettore Vivitek tramite rete (comandi RS 232 tramite telnet)",
+      "es": "Controle un proyector Vivitek a través de la red (comandos RS 232 a través de telnet)",
+      "pl": "Sterowanie projektorem Vivitek przez sieć (polecenia RS 232 przez telnet)",
+      "zh-cn": "通过网络控制Vivitek投影仪（通过telnet的RS 232命令）",
+      "uk": "Керування проектором Vivitek через мережу (команди RS 232 через telnet)"
+    },
+    "authors": [
+      "Bannsaenger <bannsaenger@gmx.de>"
+    ],
+    "keywords": [
+      "vivitek projector"
+    ],
+    "licenseInformation": {
+      "link": "https://github.com/Bannsaenger/ioBroker.vivitek/blob/master/LICENSE",
+      "type": "free",
+      "license": "MIT"
+    },
+    "platform": "Javascript/Node.js",
+    "icon": "vivitek.png",
+    "enabled": true,
+    "extIcon": "https://raw.githubusercontent.com/Bannsaenger/ioBroker.vivitek/master/admin/vivitek.png",
+    "readme": "https://github.com/Bannsaenger/ioBroker.vivitek/blob/master/README.md",
+    "loglevel": "info",
+    "mode": "daemon",
+    "type": "multimedia",
+    "tier": 3,
+    "compact": true,
+    "connectionType": "local",
+    "dataSource": "poll",
+    "adminUI": {
+      "config": "json"
+    },
+    "messagebox": true,
+    "dependencies": [
+      {
+        "js-controller": ">=5.0.19"
+      }
+    ],
+    "globalDependecies": [
+      {
+        "admin": ">=5.3.2"
+      }
     ]
+  },
+  "native": {
+    "host": "127.0.0.1",
+    "port": 23,
+    "projectorType": "",
+    "pollDelay": 1000,
+    "reconnectDelay": 10000,
+    "answerTimeout": 500,
+    "inactivityTimeout": 10000
+  },
+  "objects": [],
+  "instanceObjects": [
+    {
+      "_id": "info",
+      "type": "channel",
+      "common": {
+        "name": "Information"
+      },
+      "native": {}
+    },
+    {
+      "_id": "info.connection",
+      "type": "state",
+      "common": {
+        "role": "indicator.connected",
+        "name": "If connected to Vivitec projector",
+        "type": "boolean",
+        "read": true,
+        "write": false,
+        "def": false
+      },
+      "native": {}
+    }
+  ]
 }
