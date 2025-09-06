@@ -1,6 +1,6 @@
 {
   "name": "iobroker.vivitek",
-  "version": "0.1.1",
+  "version": "0.1.2",
   "description": "Control a Vivitek Projector via Network (RS 232 commands via telnet)",
   "author": {
     "name": "Bannsaenger",

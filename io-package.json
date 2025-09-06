@@ -1,8 +1,21 @@
 {
   "common": {
     "name": "vivitek",
-    "version": "0.1.1",
+    "version": "0.1.2",
     "news": {
+      "0.1.2": {
+        "en": "updated dependencies and issues from repository checker",
+        "de": "aktualisierte abhängigkeiten und probleme von repository checker",
+        "ru": "обновленные зависимости и проблемы из проверки репозитория",
+        "pt": "dependências e problemas atualizados do verificador de repositório",
+        "nl": "bijgewerkte afhankelijkheden en problemen van repository-checker",
+        "fr": "les dépendances et les problèmes mis à jour par le vérificateur du dépôt",
+        "it": "dipendenze aggiornate e problemi da repository checker",
+        "es": "dependencias actualizadas y cuestiones del control del repositorio",
+        "pl": "zaktualizowane zależności i problemy z kontrolerem repozytorium",
+        "uk": "оновлені залежності та питання репозиторійної перевірки",
+        "zh-cn": "从仓库检查器更新的依赖性和问题"
+      },
       "0.1.1": {
         "en": "updated admin dependency",
         "de": "aktualisierte adminabhängigkeit",

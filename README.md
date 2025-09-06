@@ -31,7 +31,7 @@ As i know for now, the protocol covers a whole family of projectos.
     Placeholder for the next version (at the beginning of the line):
     ### **WORK IN PROGRESS**
 -->
-### **WORK IN PROGRESS**
+### 0.1.2 (2025-09-06)
 * (Bannsaenger) updated dependencies and issues from repository checker
 
 ### 0.1.1 (2025-02-25)
@@ -48,9 +48,6 @@ As i know for now, the protocol covers a whole family of projectos.
 
 ### 0.0.1
 * (Bannsaenger) initial release
-
-### 0.0.2
-* (Bannsaenger) added engine and prepared for review
 
 ## License
 MIT License
